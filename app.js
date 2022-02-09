@@ -1,8 +1,8 @@
-// import functions and grab DOM elements
+import { drinks } from './drinks.js';
+import { renderDrinks } from './utils.js';
 
-// let state
-
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+const drinkList = document.getElementById('drink-list');
+for (let drink of drinks) {
+    const li = renderDrinks(drink);
+    drinkList.append(li);
+}
