@@ -1,7 +1,8 @@
 
-export function renderDrinks(drink) {
-    const li = document.createElement('li');
-    li.classList.add('drink');
-    li.textContent = drink;
-    return li;
+export function findById(id) {
+    return find((item) => item.id === id);
 }
+// might have to change this
+
+
+// we are finding drink by film item id 

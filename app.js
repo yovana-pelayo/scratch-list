@@ -1,8 +1,9 @@
-import { drinks } from './drinks.js';
-import { renderDrinks } from './utils.js';
+import { films } from './filmsdata.js';
+import { renderFilms } from './render-utils.js';
 
-const drinkList = document.getElementById('drink-list');
-for (let drink of drinks) {
-    const li = renderDrinks(drink);
-    drinkList.append(li);
+const filmList = document.getElementById('film-list');
+for (let film of films) {
+    const div = renderFilms(film);
+    filmList.append(div);
 }
+
