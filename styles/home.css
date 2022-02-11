@@ -1,1 +1,40 @@
 /* add home page styles here */
+body {
+  
+}
+main {
+    /* background-image: url(../assets/background.png); */
+    background-image: url(../assets/movies.jpeg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    background-size: cover;
+    height: 640px;
+    align-content: center;
+    position: relative;
+    gap: 20px;
+}
+.films {
+    grid-area: ;
+    border-radius: 5px;
+    padding: 10px; 
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.films a {
+    border: double yellow;
+    margin: 10px;
+    color: yellow;
+}
+#film-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border:2em;
+}
+img {
+    width: 200px;
+    height: 200px;
+}

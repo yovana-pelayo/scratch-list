@@ -4,7 +4,7 @@ export const films = [
         title: 'Scream',
         genre: 'Thriller',
         cost: '$10',
-        image: './assets/scream.jpg',
+        image: 'scream.jpg',
         ratingOutOfTen: ['0', '10', '9', '9', '8', '8'],
     },
     {
@@ -12,7 +12,7 @@ export const films = [
         title: 'Avatar',
         genre: 'Fantasy',
         cost: '$12',
-        image: `./assets/avatar.webp`,
+        image: `avatar.webp`,
         ratingOutOfTen: ['10', '10', '9', '9', '8', '10'],
     },
     {
@@ -20,13 +20,15 @@ export const films = [
         title: 'Matrix Reloaded',
         genre: 'Sci-fi',
         cost: '$6',
+        image: 'matrix-OG.jpeg',
         ratingOutOfTen: ['10', '10', '9', '9', '10', '9'],
     },
     {
         id:4,
         title: 'The Matrix Resurrections',
-        genre: 'SCi-fi',
+        genre: 'Sci-fi',
         cost: '$15',
+        image: 'matrix.jpeg',
         ratingOutOfTen: ['0', '1', '3', '3', '5', '8'],
     }
 ];
