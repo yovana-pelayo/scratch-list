@@ -10,7 +10,7 @@ export const films = [
         id:'2',
         title: 'Avatar',
         genre: 'Fantasy',
-        image: `avatar.webp`,
+        image: `avatar.jpeg`,
         ratingOutOfTen: ['10', '10', '9', '9', '8', '10'],
     },
     {
