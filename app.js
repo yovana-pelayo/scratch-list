@@ -1,4 +1,4 @@
-import { films } from './filmsdata.js';
+import { films } from './data.js';
 import { renderFilms } from './render-utils.js';
 
 const filmList = document.getElementById('film-list');
