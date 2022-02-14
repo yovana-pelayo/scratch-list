@@ -1,12 +1,16 @@
 /* add home page styles here */
 body {
+    background-image: url(../assets/movies.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
 main {
     /* background-image: url(../assets/background.png); */
-    background-image: url(../assets/movies.jpeg);
     background-size: cover;
     height: 640px;
     align-content: center;
@@ -17,7 +21,6 @@ main {
     border: double yellow;
     color: yellow;
     margin: 10px;
-    /* grid-area: ; */
     border-radius: 5px;
     padding: 10px; 
     align-items: center;
@@ -35,6 +38,7 @@ main {
     border:2em;
 }
 img {
+    border-radius: 2em;
     width: 100px;
     height: 100px;
 }

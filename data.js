@@ -21,7 +21,7 @@ export const films = [
         ratingOutOfTen: ['10', '10', '9', '9', '10', '9'],
     },
     {
-        id:4,
+        id:'4',
         title: 'The Matrix Resurrections',
         genre: 'Sci-fi',
         image: 'matrix.jpeg',
