@@ -1,8 +1,7 @@
-// import functions and grab DOM elements
-
-// let state
-
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+import { films } from './data.js';
+import { renderFilms } from './render-utils.js';
+const filmList = document.getElementById('film-list');
+for (let film of films) {
+    const div = renderFilms(film);
+    filmList.append(div);
+}
