@@ -1,5 +1,6 @@
 import { films } from '../data.js';
 import { renderFilms } from '../render-utils.js';
+import { renderDetails } from '../render-utils.js';
 import { findById } from '../utils.js';
 
 const params = new URLSearchParams(window.location.search);
@@ -11,5 +12,9 @@ const main = document.querySelector('main');
 
 const filmDetail = renderFilms(film);
 
+const detailPage = renderDetails(films);
 
-main.append(filmDetail);
+main.append(filmDetail, detailPage);
+
+
+
