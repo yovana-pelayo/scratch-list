@@ -17,8 +17,6 @@ export function renderFilms(film) {
     a.append(h2, h3, img);
     div.append(a);
     return div;
-
-
 }
 export function renderDetails(detail) {
     const div = document.createElement('div');
@@ -35,6 +33,7 @@ export function renderDetails(detail) {
 
     const img = document.createElement('img');
     img.src = `../assets/${detail.image}`;
+    div.append(h2, p, img);
     return div;
 }
 // created a new function that calls the details I want without the link
